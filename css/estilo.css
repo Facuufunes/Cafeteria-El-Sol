@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+}
+
+.landing {
+  background: url(/img/cafenuevo.jpg) no-repeat center center/cover;
+  min-height: 100vh;
+  padding: 30px;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+}
+
+.login-btn {
+  background: #52251c;
+  padding: 8px 16px;
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+/* HERO SECTION */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+/* TEXT LEFT */
+.hero-text {
+  max-width: 500px;
+}
+
+.hero-text h5 {
+  font-size: 14px;
+  color: #c5a07f;
+  letter-spacing: 2px;
+}
+
+.hero-text h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 48px;
+  line-height: 1.2;
+  margin: 20px 0;
+}
+
+.hero-text .sub {
+  text-transform: uppercase;
+  color: #c5a07f;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.hero-text .desc {
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+.order-btn {
+  padding: 12px 24px;
+  border: 2px solid #fff;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 3px;
+  transition: background 0.3s;
+}
+
+.order-btn:hover {
+  background: #fff;
+  color: #000;
+}
+
+.social {
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+}
+
+/* PRODUCT CARDS */
+.hero-cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #fff;
+  color: #000;
+  padding: 20px;
+  border-radius: 5px;
+  width: 220px;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.card h4 {
+  margin: 15px 0 10px;
+  color: #7c2d12;
+}
+
+.card p {
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.card a {
+  color: #7c2d12;
+  font-weight: bold;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+
+.info-extra {
+  margin-top: 20px;
+  color: #fff;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.info-extra p {
+  margin: 4px 0;
+}
