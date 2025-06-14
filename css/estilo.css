@@ -51,7 +51,7 @@ body {
   gap: 40px;
 }
 
-/* TEXT LEFT */
+/* TEXTO */
 .hero-text {
   max-width: 500px;
 }
@@ -102,7 +102,7 @@ body {
   gap: 15px;
 }
 
-/* PRODUCT CARDS */
+/* PRODUCTOS */
 .hero-cards {
   display: flex;
   gap: 20px;
@@ -151,4 +151,22 @@ body {
 
 .info-extra p {
   margin: 4px 0;
+}
+
+.social a {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 800;
+  font-size: 20px;
+  color: rgba(214, 110, 92, 0.8); 
+  border: 2px solid rgba(214, 110, 92, 0.8);
+  border-radius: 50%;
+  padding: 10px;
+  margin: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.social a:hover {
+  background-color: rgba(214, 110, 92, 0.2);
+  color: rgba(214, 110, 92, 1);
 }
