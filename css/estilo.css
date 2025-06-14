@@ -170,3 +170,25 @@ body {
   background-color: rgba(214, 110, 92, 0.2);
   color: rgba(214, 110, 92, 1);
 }
+
+  /* PRUEBA PARA CELULARES */
+
+@media (max-width: 600px) {
+.hero {
+    flex-direction: column;
+    align-items: center; /* Centrar en vertical */
+  }
+.hero-text {
+    max-width: 100%;
+    text-align: center;
+    padding: 0 20px;
+  }
+.hero-cards {
+    justify-content: center;
+  }
+.card {
+    width: 90%;
+    max-width: 300px;
+    margin-bottom: 20px;
+  }
+}
