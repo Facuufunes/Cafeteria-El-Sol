@@ -10,7 +10,7 @@ body {
 }
 
 .landing {
-  background: url(/img/cafenuevo.jpg) no-repeat center center/cover;
+  background: url(img/cafenuevo.jpg) no-repeat center center/cover;
   min-height: 100vh;
   padding: 30px;
 }
